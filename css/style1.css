@@ -1,0 +1,142 @@
+body {
+  background-color: blanchedalmond;
+}
+.longbox {
+  width: 100vw;
+  height: 4.5vw;
+  border: burlywood solid 2px;
+  margin: -1px;
+  text-transform: titlecase;
+  text-align: center;
+  box-shadow: 5px 10px 8px burlywood inset, -5px -10px 8px burlywood inset;
+  background-color: blanchedalmond;
+}
+.back {
+  background-color: azure;
+  box-shadow: 5px 10px 8px white inset, -5px -10px 8px white inset;
+}
+h1 {
+  width: 100vw;
+  height: 5vw;
+  background-image: url(../images/4.jpg);
+  box-shadow: 5px 10px 8px white inset, -5px -10px 8px white inset;
+  /* background-position: center; */
+  /* background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 130px; */
+  font-family: cursive;
+}
+ul {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 4vw;
+
+  /* background-image: url(../images/2.jpg); */
+  /* background-position: center; */
+  /* background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 130px;  */
+}
+li {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 10em;
+  margin-left: 4em;
+  font-weight: bolder;
+  color: teal;
+}
+ul li a:hover {
+  color: red;
+  cursor: pointer;
+  background-color: yellow;
+}
+.shortbox {
+  width: 60vw;
+  /* height: 20vw; */
+  /* border: solid brown 2px; */
+  margin: -1px;
+  /* background-color: antiquewhite; */
+  box-shadow: 5px 10px 8px burlywood inset, -5px -10px 8px white inset;
+  background-color: black;
+}
+.asidebox {
+  height: 41vw;
+  width: 37.3vw;
+  /* border: brown solid 2px; */
+  margin: 5px;
+}
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+.clearboth {
+  clear: both;
+}
+/* aside {
+    background-image: url(../images/coffee.png);
+    background-position: center;
+    background-size: 100% 100%;
+    
+  } */
+.boxshadow {
+  width: 100vw;
+  /* border: 1px solid; */
+  /* box-shadow: 5px 10px 8px burlywood inset, -5px -10px 8px white inset; */
+}
+.textShadow {
+  text-shadow: 2px 2px green, 5px 5px 10px yellow;
+}
+.foot {
+  /* width: 100vw;
+    height: 10vw; */
+  /* border: black solid 2px; */
+  /* margin: 5px; */
+  background-color: brown;
+  text-align: center;
+  /* color: blue; */
+  font-weight: bold;
+  /* padding-top: 3em; */
+  letter-spacing: 0.1em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.foot a:hover {
+  background-color: yellow;
+  cursor: pointer;
+  color: blue;
+}
+footer a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+/* .carousel-cell {
+    display: inline-block;
+    margin-left: 1em;  
+  } */
+.fade-out {
+  animation: fadeOut ease 4s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+.anim {
+  padding-top: 0.6em;
+}
+
+img {
+  position: absolute;
+  right: 10px;
+}

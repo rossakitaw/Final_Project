@@ -1,0 +1,90 @@
+.longbox{
+    width: 100vw;
+    height: 10vw;
+    border: black solid 2px;
+    margin: 5px;
+}
+.shortbox{
+    width: 60vw;
+    height: 20vw;
+    border: solid black 2px;
+    margin: 5px;
+}
+.asidebox{
+    height: 41vw;
+    width: 35vw;
+    border: black solid 2px;
+    margin: 5px;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.clearboth{
+    clear: both;
+}
+aside{
+    background-image: url(../images/ian-keefe-OgcJIKRnRC8-unsplash.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+.boxshadow{
+    width: 98vw;
+    border: 1px solid;
+    box-shadow: 5px 10px 8px #888888 inset, -5px -10px 8px #888888 inset;
+}
+.textShadow{
+    text-shadow: 2px 2px yellow, 5px 5px 10px orangered;
+}
+
+body{
+    margin: 0;
+}
+.titlecard{
+    width: 25vw;
+    height: 15vw;
+    float: left;
+}
+.one{
+    background-color: #BBBBBB;
+}
+.two{
+    background-color: #CCCCCC;
+}
+.three{
+    background-color: #DDDDDD;
+}
+.four{
+    background-color: #EEEEEE;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+nav{
+    width: 98vw;
+    height: 11vh;
+    background-color: #EEEEEE;
+}
+img{
+    width: 6vw;
+    height: 3vw;
+    margin-left: 3.5vw;
+    margin-top: 1vw;
+}
+ul{
+    list-style: none;
+    width: 35vw;
+    height: 100%;
+    text-align: right;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    margin-top: 2vw;
+}
