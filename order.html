@@ -1,321 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>reservation</title>
-   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+   <meta name="author" content="Rossa Kitaw" />
+   <meta name="date" content="2/17/2022" />
+   <meta name="description" content="Ross_Restaurant" />
+   <title>Final_Project</title>
+
+   <link rel="stylesheet" href="styleor.css">
+
 </head>
 
 <body>
-
-   <style>
-
-* {
-    margin: 0;
-    padding: 0%;
-    text-decoration: none;
-    outline: none;
-    border: none;
-    box-sizing: border-box;
-
-  }
-
-      body {
-         background-color: cornsilk;
-
-      }
-
-
-      nav {
-    height: 50px;
-    /* background-image: url(images/img.jpg); */
-    /* background-repeat: no-repeat; */
-  }
-
-  nav ul {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  nav li {
-    display: inline-block;
-    height: 100%;
-    width: 15%;
-  }
-
-  header .box {
-    display: flex;
-    position: fixed;
-    align-items: center;
-    flex-direction: row;
-    background-color: green;
-    justify-content: center;
-    width: 100%;
-    height: 10%;
-    padding-top: 2em;
-
-
-  }
-
-  .box li a {
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .box li a:hover {
-    background-color: red;
-  }
-
-  .box-1 {
-    text-align: center;
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-
-  .box-2 {
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-
-  }
-
-  .box-2 header {
-    /* box-shadow: var(--box-shadow); */
-    text-align: center;
-    font-size: 3.5em;
-    font-weight: 750;
-    display: flex;
-    flex-direction: row;
-    /* padding-top: 6em; */
-    justify-content: center;
-    align-items: center;
-    flex: 4.5;
-    /* z-index: 1000; */
-  }
-
-  .box-2 .wrap {
-    margin-right: 2em;
-    padding-top: 2em;
-
-  }
-/* 
-  .box-2 .wrap a {
-    text-decoration: underline;
-  } */
-
-
-  .box-2 .wrap a:hover {
-    background-color: red;
-  }
-
-
-
-      /* .box {
-         list-style: none;
-         display: block;
-         padding-top: 0.5em;
-         margin-left: 3em;
-      }
-
-      .box li a {
-         color: blue;
-         font-weight: bold;
-         text-transform: uppercase;
-         font-size: 12px;
-      }
-
-      .box li a:hover {
-         background-color: red;
-      }
-
-      .box-1 {
-         display: flex;
-         flex-direction: column;
-         background-size: cover;
-
-      }
-
-      .box-1 .box-2 {
-         margin-right: 2em;
-      }
-
-      .box-1 .box-2 a {
-         text-decoration: underline;
-      }
-
-
-      .box-1 .box-2 a:hover {
-         background-color: red;
-      } */
-
-
-      .box-3 {
-         display: flex;
-         margin-left: 20ex;
-         position: absolute;
-         font-size: large;
-      }
-
-.sub {
-   background-color: green;
-   color: aliceblue;
-   font-weight: bold;
-   cursor: pointer;
-}
-
-.res {
-   color: white;
-   background-color: red;
-   cursor: pointer;
-}
-
-.sub:hover {
-   background-color: blue;
-}
-
-.res:hover {
-   background-color: red;
-}
-
-
-   </style>
-
-   <body>
-
-
-      <div class="bax">
-         <header>
-           <nav>
-             <ul class="box">
+   <div class="bax">
+      <header>
+         <nav>
+            <ul class="box">
                <li>
-                 <a href="index.html">Home</a>
+                  <a href="index.html">Home</a>
                </li>
-               <li>
-                 <a href="about.html">About</a>
-               </li>
-          
-             </ul>
-           </nav>
-     
-           <section class="box-2">
+            </ul>
+         </nav>
+
+         <section class="box-2">
             <div class="wrap">
-              <span>
-                <a style="float: right; margin-left: 0.5em; color: blue;" href="tel:602-789-5672"><span style="color: black;">Phone:</span> &nbsp; &nbsp;
-                  <span style="border-bottom: 1px solid blue;">(602) 789 - 5672</span> </a></span>
-              <br />
-              <span>
-                <a style="float: right; color: blue;" href="mailto:staff@ruckers.com"><span style="color: black;"> Contact-us:</span> &nbsp;
-                  <span style="border-bottom: 1px solid blue;">staff@ruckers.com</span></a></span>
+
             </div>
-    
-          </section>
-      
 
-
-      <div>
-         <h2 style="margin-left: 15ex; color: red;">Online-Order</h2>
-      </div>
-
-
-      <div class="box-3">
-         <div class="box-4">
-            <form>
-               <label for="fname">First name:</label><br>
-               <input type="text" id="fname" name="=fname" size="30"> <br>
-
-               <label for="lname">Last name:</label><br>
-               <input type="text" id="lname" name="=lname" size="30"> <br>
-               
-               <label for="email">Email address:</label><br>
-               <input type="email" id="email" name="=email" size="30"> <br>
-               
-               <label for="phone">Phone number:</label><br>
-               <input type="number" id="phone" name="=phone" size="30"> <br>             
-
-               <label for="credit-card">Credit card-number:</label> <br>
-               <input type="number" id="credit-card" name="=credit-card"> <br>
-
-               <label for="expiry">Expiration-Date:</label> <br>
-               <input type="number" id="expiry" name="=expiry"> <br>
-
-               <label for="csv">CSV#</label> <br>
-               <input style="font-weight: lighter;" type="number" id="csv" placeholder="Back of your card"> <br>
-
-               <label for="pick">Pick-up Time</label> <br>
-               <input type="time" id="pick" name="pick"> <br>
-
-               <input type='submit' value='Order' class="sub">
-               <input type='reset' value='Reset' class="res">
-            </form>
+         </section>
+         <div>
+            <h2 style="margin-left: 15ex; color: red;">Online-Order</h2>
          </div>
-      </div>
-   
-   
-      <!-- <section class="order" id="order">
 
-         <h3 class="sub-heading"> order now </h3>
-         <h1 class="heading"> free and fast </h1>
-     
-         <form action="">
-     
-             <div class="inputBox">
-                 <div class="input">
-                     <span>your name</span>
-                     <input type="text" placeholder="enter your name">
-                 </div>
-                 <div class="input">
-                     <span>your number</span>
-                     <input type="number" placeholder="enter your number">
-                 </div>
-             </div>
-             <div class="inputBox">
-                 <div class="input">
-                     <span>your order</span>
-                     <input type="text" placeholder="enter food name">
-                 </div>
-                 <div class="input">
-                     <span>additional food</span>
-                     <input type="test" placeholder="extra with food">
-                 </div>
-             </div>
-             <div class="inputBox">
-                 <div class="input">
-                     <span>how much</span>
-                     <input type="number" placeholder="how many orders">
-                 </div>
-                 <div class="input">
-                     <span>date and time</span>
-                     <input type="datetime-local">
-                 </div>
-             </div>
-             <div class="inputBox">
-                 <div class="input">
-                     <span>your address</span>
-                     <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
-                 </div>
-                 <div class="input">
-                     <span>your message</span>
-                     <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
-                 </div>
-             </div>
-     
-             <input type="submit" value="order now" class="btn">
-     
-         </form>
-     
-     </section>
-      -->
- 
-   
-   </body>
-   
+
+         <div class="box-3">
+            <div class="box-4">
+               <form>
+                  <label for="fname">First name:</label><br>
+                  <input type="text" id="fname" name="=fname" size="30"> <br>
+
+                  <label for="lname">Last name:</label><br>
+                  <input type="text" id="lname" name="=lname" size="30"> <br>
+
+                  <label for="email">Email address:</label><br>
+                  <input type="email" id="email" name="=email" size="30"> <br>
+
+                  <label for="phone">Phone number:</label><br>
+                  <input type="number" id="phone" name="=phone" size="30"> <br>
+
+                  <label for="credit-card">Credit card-number:</label> <br>
+                  <input type="number" id="credit-card" name="=credit-card"> <br>
+
+                  <label for="expiry">Expiration-Date:</label> <br>
+                  <input type="number" id="expiry" name="=expiry"> <br>
+
+                  <label for="csv">CSV#</label> <br>
+                  <input style="font-weight: lighter;" type="number" id="csv" placeholder="Back of your card"> <br>
+
+                  <label for="pick">Pick-up Time</label> <br>
+                  <input type="time" id="pick" name="pick"> <br>
+
+                  <input type='submit' value='Order' class="sub">
+                  <input type='reset' value='Reset' class="res">
+               </form>
+            </div>
+         </div>
+
+</body>
+
 </html>

@@ -1,0 +1,62 @@
+body {
+    
+    background-image: linear-gradient(to right, beige, green);
+  }
+  
+
+
+  nav li {
+    display: inline-block;
+    height: 100%;
+    width: 15%;
+  }
+
+
+  .box li a {
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .box li a:hover {
+    background-color: red;
+  }
+
+ 
+
+
+
+  .box-2 .wrap a:hover {
+    background-color: red;
+  }
+
+.box-3 {
+   display: flex;
+   margin-left: 20ex;
+   position: absolute;
+   font-size: large;
+}
+
+.sub {
+   background-color: green;
+   color: aliceblue;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.res {
+   color: white;
+   background-color: red;
+   cursor: pointer;
+}
+
+.sub:hover {
+   background-color: blue;
+}
+
+.res:hover {
+   background-color: red;
+}
